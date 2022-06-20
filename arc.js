@@ -155,7 +155,7 @@ if (mod(a, b)==true)
 //______CONTANDO_CARACTERE_____//
 
 var frase = "arara";
-var Char;
+var char;
 
 function countChar(frase, c)
 {
@@ -171,7 +171,7 @@ function countChar(frase, c)
     console.log(c, "aparece", count, "vezes");
 }
 
-countChar(frase, Char);
+countChar(frase, char);
 //_____________________________//
 //_TRABALHANDO_COM_INTERVALOS__//
 
@@ -372,7 +372,7 @@ function caixaAltaVogal (car)
 
 function caixaAltaCon (car)
 {
-    char.toLowerCase();
+    car.toLowerCase();
     if(car != "a" && car != "e" && car != "i" && car != "o" && car != "u")
     {
         car = car.toUpperCase();
@@ -392,7 +392,7 @@ function caixaBaixaVogal (car)
 
 function caixaBaixaCon (car)
 {
-    char.toUpperCase();
+    car.toUpperCase();
     if(car != "a" && car != "e" && car != "i" && car != "o" && car != "u")
     {
         car = car.toLowerCase();
